@@ -1,0 +1,23 @@
+ btn10=(Button)findViewById(R.id.button12);
+        btn10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder at=new AlertDialog.Builder(MainActivity.this);
+                at.setTitle("確認視窗");
+                at.setPositiveButton("確認", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+                    }
+                });
+                at.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+                at.show();
+            }
+        });
+
+    }
