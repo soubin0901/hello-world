@@ -1,0 +1,79 @@
+package com.example.myapplication;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class MainActivity extends AppCompatActivity {
+    Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9;
+    String s="";
+    TextView txt;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        btn1=(Button)findViewById(R.id.button1);
+
+        btn2=(Button)findViewById(R.id.button2);
+        btn3=(Button)findViewById(R.id.button4);
+        btn4=(Button)findViewById(R.id.button5);
+        btn5=(Button)findViewById(R.id.button6);
+        btn6=(Button)findViewById(R.id.button7);
+        btn7=(Button)findViewById(R.id.button8);
+        btn8=(Button)findViewById(R.id.button9);
+        btn9=(Button)findViewById(R.id.button10);
+
+        btn1.setOnClickListener(btnListener);
+        btn2.setOnClickListener(btnListener);
+        btn3.setOnClickListener(btnListener);
+        btn4.setOnClickListener(btnListener);
+        btn5.setOnClickListener(btnListener);
+        btn6.setOnClickListener(btnListener);
+        btn7.setOnClickListener(btnListener);
+        btn8.setOnClickListener(btnListener);
+        btn9.setOnClickListener(btnListener);
+        txt=(TextView)findViewById(R.id.textView2);
+    }
+
+    private Button.OnClickListener btnListener=new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            switch (v.getId())
+            {
+
+                case R.id.button1:
+                    s=s+"1";
+                    break;
+                case R.id.button2:
+                    s=s+"2";
+                    break;
+                case R.id.button4:
+                    s=s+"3";
+                    break;
+                case R.id.button5:
+                    s=s+"4";
+                    break;
+                case R.id.button6:
+                    s=s+"5";
+                    break;
+                case R.id.button7:
+                    s=s+"6";
+                    break;
+                case R.id.button8:
+                    s=s+"7";
+                    break;
+                case R.id.button9:
+                    s=s+"8";
+                    break;
+                case R.id.button10:
+                    s=s+"9";
+                    break;
+            }
+
+            txt.setText(s);
+        }
+    };
+}
