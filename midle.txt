@@ -1,0 +1,69 @@
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="WebForm1.aspx.vb" Inherits="midleterm.WebForm1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet1.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+</head>
+<body style="background-color:#F2F0F1">
+    <form id="form1" runat="server">
+        <div>
+            <!--標題!-->
+            <header class="header">
+                <div style="float:left">
+                    <asp:LinkButton ID="LinkButton1" runat="server" Font-Size="20px"><i class="fa fa-align-justify" ></i></asp:LinkButton>
+                </div>
+                <div style="right:0;float:right">
+                    <div class="row"  style="width:420px">
+                        <div class="col">
+                            <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="#000000" ><p><i class="fa fa-search"></i>Search</p></asp:LinkButton>
+                        </div>
+                        <div class="col lk">
+                           <asp:LinkButton ID="LinkButton3" runat="server" ForeColor="#295176"><p>Contact us</p></asp:LinkButton> 
+                        </div>
+                        <div class="col lk">
+                            <asp:LinkButton ID="LinkButton4" runat="server" ForeColor="#295176"><p>Sign us</p></asp:LinkButton>
+                        </div>
+                        <div class="col lk">
+                            <asp:LinkButton ID="LinkButton5" runat="server" ForeColor="#295176"><p><i class="fa fa-shopping-cart"></i>(0)</p></asp:LinkButton>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+
+            <!--第二行!-->
+            <div class="logo">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/img/logo.webp"/>
+            </div>
+
+            <!--第三行!-->
+            <div class="third">
+                <div class="row justify-content-center">
+                    <div class="col-2">
+                        <asp:LinkButton ID="LinkButton6" runat="server"><p><i class="fa fa-search"></i>Search</p></asp:LinkButton>
+                    </div>
+                     <div class="col-2">
+                        <asp:LinkButton ID="LinkButton7" runat="server"><p><i class="fa fa-search"></i>Search</p></asp:LinkButton>
+                    </div>
+                     <div class="col-2">
+                        <asp:LinkButton ID="LinkButton8" runat="server"><p><i class="fa fa-search"></i>Search</p></asp:LinkButton>
+                    </div>
+                     <div class="col-2">
+                        <asp:LinkButton ID="LinkButton9" runat="server"><p><i class="fa fa-search"></i>Search</p></asp:LinkButton>
+                    </div>
+                    <div class="col-2">
+                        <asp:LinkButton ID="LinkButton10" runat="server"><p><i class="fa fa-search"></i>Search</p></asp:LinkButton>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
