@@ -247,11 +247,11 @@
 
                 <div class="row tenth">
                     <div class="col">
-                        <span><b>The Planet Mark?</b></span>
+                        <span><b>The Planet Mark™</b></span>
                     </div>
                     <div class="col-9">
                         <span>
-                           We're proud holders of The Planet Mark? and won two Planet Mark? awards in 2018. Launched in 2013 in partnership with the Eden Project, The Planet Mark? is an internationally recognised sustainability scheme that certifies organisations committed to at least 5% year-on-year carbon reduction.
+                           We're proud holders of The Planet Mark™ and won two Planet Mark™ awards in 2018. Launched in 2013 in partnership with the Eden Project, The Planet Mark™ is an internationally recognised sustainability scheme that certifies organisations committed to at least 5% year-on-year carbon reduction.
                         </span>
                     </div>
                 </div>
@@ -359,8 +359,16 @@
 				</div>
 				
 			    </div>
-			    <div style="float:left;width:25%;margin:auto;">
-				    aaaa
+			    <div style="float:left;width:25%;margin:auto;text-align:left">
+				    <span>
+                    <b style="font-size:22px">Soap Co.</b></br></br>
+                    020 3078 8950</br>
+                    info@thesoapco.org</br>
+                    London E4 9JDM</br></br>
+                    FREE UK Delivery</br>
+                    Over £35 (more info)</br>
+
+				    </span>
 			    </div>
 			    </div>
 			
@@ -369,7 +377,7 @@
             <!--最後一行!-->
             <div class="final">
                 <div style="text-align:center">
-                    <span>c 2019 The Soap Co.</span>
+                    <span>© 2019 The Soap Co.</span>
                 </div>
                 <div style="text-align:center">
                     <asp:Image ID="Image5" runat="server" ImageUrl="~/img/amex.svg" />
