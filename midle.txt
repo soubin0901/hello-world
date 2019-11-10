@@ -12,12 +12,12 @@
 <body style="background-color:#F2F0F1">
     <form id="form1" runat="server">
         <div>
-            <!--���D!-->
+            <!--標題!-->
             <header class="header">
-                <div style="float:left">
-                    <asp:LinkButton ID="LinkButton1" runat="server" Font-Size="20px"><i class="fa fa-align-justify" ></i></asp:LinkButton>
+                <div style="float:left;padding-top:10px">
+                    <asp:LinkButton ID="LinkButton1" runat="server" Font-Size="30px" ForeColor="#000000"><i class="fa fa-align-justify" ></i></asp:LinkButton>
                 </div>
-                <div style="right:0;float:right">
+                <div style="right:0;float:right;padding-top:10px">
                     <div class="row"  style="width:420px">
                         <div class="col">
                             <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="#000000" ><p><i class="fa fa-search"></i>Search</p></asp:LinkButton>
@@ -36,33 +36,182 @@
                 </div>
             </header>
 
-            <!--�ĤG��!-->
+            <!--第二行!-->
             <div class="logo">
                 <asp:Image ID="Image1" runat="server" ImageUrl="~/img/logo.webp"/>
             </div>
 
-            <!--�ĤT��!-->
+            <!--第三行!-->
             <div class="third">
                 <div class="row justify-content-center">
-                    <div class="col-2">
-                        <asp:LinkButton ID="LinkButton6" runat="server"><p><i class="fa fa-search"></i>Search</p></asp:LinkButton>
+                    <div class="col-1.9">
+                        <asp:LinkButton ID="LinkButton6" runat="server" ForeColor="#000000"><p>Shop <i class="fa fa-angle-down"></i></p></asp:LinkButton>
                     </div>
-                     <div class="col-2">
-                        <asp:LinkButton ID="LinkButton7" runat="server"><p><i class="fa fa-search"></i>Search</p></asp:LinkButton>
+                     <div class="col-1.9" style="margin-left:50px">
+                        <asp:LinkButton ID="LinkButton7" runat="server" ForeColor="#000000"><p>Gift Ideas <i class="fa fa-angle-down"></i></p></asp:LinkButton>
                     </div>
-                     <div class="col-2">
-                        <asp:LinkButton ID="LinkButton8" runat="server"><p><i class="fa fa-search"></i>Search</p></asp:LinkButton>
+                     <div class="col-1.9" style="margin-left:50px">
+                        <asp:LinkButton ID="LinkButton8" runat="server" ForeColor="#000000"><p>About Us</p></asp:LinkButton>
                     </div>
-                     <div class="col-2">
-                        <asp:LinkButton ID="LinkButton9" runat="server"><p><i class="fa fa-search"></i>Search</p></asp:LinkButton>
+                     <div class="col-1.9" style="margin-left:50px">
+                        <asp:LinkButton ID="LinkButton9" runat="server" ForeColor="#000000"><p>Our People</p></asp:LinkButton>
                     </div>
-                    <div class="col-2">
-                        <asp:LinkButton ID="LinkButton10" runat="server"><p><i class="fa fa-search"></i>Search</p></asp:LinkButton>
+                    <div class="col-1.9" style="margin-left:50px">
+                        <asp:LinkButton ID="LinkButton10" runat="server" ForeColor="#000000"><p>Latest News <i class="fa fa-angle-down"></i></p></asp:LinkButton>
                     </div>
-
+                    <div class="col-1.9" style="margin-left:50px">
+                        <asp:LinkButton ID="LinkButton11" runat="server" ForeColor="#000000"><p>FAQs</p></asp:LinkButton>
+                    </div>
+                    <div class="col-1.9" style="margin-left:50px">
+                        <asp:LinkButton ID="LinkButton12" runat="server" ForeColor="#000000"><span>For Business</span></asp:LinkButton>
+                    </div>
                 </div>
             </div>
 
+            <!--第四行!-->
+            <div class="forth">
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/img/fifth.webp" Width="100%"/>
+            </div>
+
+            <!--第五行!-->
+            <div class="fifth">
+                <span>
+                    <b>The Soap Co. is an ethical luxury brand that makes products that are good and do good.</b></br></br>
+                    Based in East London, and with a traditional workshop in the Lake District, The Soap Co. creates bath and beauty products</br>
+                    with sophisticated fragrances,minimalist design and a strong social and environmental ethos.</br></br>
+                    We are a social enterprise providing training and work opportunities for people who are visually impaired, have disabilities or</br>
+                   are otherwise disadvantaged. All our profits go back into our business so that we can provide these opportunities and more</br>
+                    like them.</br>
+                </span>
+            </div>
+
+            <!--第六行!-->
+            <div class="sixth"> 
+                <span><b>Recently featured in</b></span>
+            </div>
+
+            <!--第七行!-->
+            <div class="seventh">
+                <asp:Image ID="Image3" runat="server" ImageUrl="~/img/slideshow_1.webp" Width="100%"/>
+
+            </div>
+
+            <!--第八行!-->
+            <div class="eighth"> 
+                <span><b>Bestsellers</b></span>
+            </div>
+
+            <!--第九行!-->
+            <div class="ninth">
+                <div class="row justify-content-center">
+                    <div class="col-3" >
+                        <asp:ImageButton ID="Image4" runat="server" ImageUrl="~/img/1.webp" Width="100%"/>
+                        <div class="container" style="text-align:center">
+                           <a href="" style="color:#000000">
+                                <span >
+                                    <b>Limited Edition Hand Wash</b> £19.00</br>
+                                    Hand Wash -300ml
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <asp:ImageButton ID="Image5" runat="server" ImageUrl="~/img/2.webp" Width="100%"/>
+                        <div class="container" style="text-align:center">
+                            <a href="" style="color:#000000">
+                                <span >
+                                    <b>Block Poppy&Wild Fig</b> £7.00</br>
+                                    Bar Soap -125g</br>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <asp:ImageButton ID="Image6" runat="server" ImageUrl="~/img/3.webp" Width="100%" />
+                        <div class="container" style="text-align:center">
+                            <a href="" style="color:#000000">
+                                <span>
+                                <b>Block Poppy&Wild Fig</b> £12.00</br>
+                                Hand Wash -300ml</br>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-3" >
+                        <asp:ImageButton ID="Image7" runat="server" ImageUrl="~/img/4.webp" Width="100%"/>
+                        <div class="container" style="text-align:center">
+                            <a href="" style="color:#000000">
+                                <span>
+                                    <b>Exfoliating Soap Pebble(large)</b> £14.00</br>
+                                    Bergamot & MInt
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <asp:ImageButton ID="Image8" runat="server" ImageUrl="~/img/5.webp" Width="100%"/>
+                        <div class="container" style="text-align:center">
+                            <a href="" style="color:#000000">
+                                <span >
+                                    <b>Renew</b> £20.00</br>
+                                    Body Oil -100ml</br>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <asp:ImageButton ID="Image9" runat="server" ImageUrl="~/img/6.webp" Width="100%" />
+                        <div class="container" style="text-align:center">
+                            <a href="" style="color:#000000">
+                                <span >
+                                    <b>Uplift0</b> £20.00</br>
+                                    Bath Oil -100ml</br>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-3" >
+                        <asp:ImageButton ID="Image10" runat="server" ImageUrl="~/img/7.webp" Width="100%"/>
+                        <div class="container" style="text-align:center">
+                            <a href="" style="color:#000000">
+                                <span >
+                                    <b>Exfoliating Coffee Sorub</b> £25.00</br>
+                                    Body Scrub -250g
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <asp:ImageButton ID="Image11" runat="server" ImageUrl="~/img/8.webp" Width="100%"/>
+                        <div class="container" style="text-align:center">
+                            <a href="" style="color:#000000">
+                                <span >
+                                    <b>Sandalwood & Bergamot Mineral Soak</b> £22.00</br>
+                                    Mineral Soak -220g</br>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <asp:ImageButton ID="Image12" runat="server" ImageUrl="~/img/9.webp" Width="100%" />
+                        <div class="container" style="text-align:center">
+                            <a href="" style="color:#000000">
+                                <span >
+                                    <b>Neroil & Rosamary Mineral Soak</b> £22.00</br>
+                                    Mineral Soak -220g</br>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--第十行!-->
         </div>
     </form>
 </body>
