@@ -1,0 +1,392 @@
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="WebForm2.aspx.vb" Inherits="midleterm.WebForm2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+     <link rel="stylesheet" href="StyleSheet2.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+</head>
+<body style="background-color:#F2F0F1">
+    <form id="form1" runat="server">
+        <div>
+            <!--標題!-->
+            <header class="header">
+                <div style="float:left;padding-top:10px">
+                    <asp:LinkButton ID="LinkButton1" runat="server" Font-Size="30px" ForeColor="#000000"><i class="fa fa-align-justify" ></i></asp:LinkButton>
+                </div>
+                <div style="right:0;float:right;padding-top:10px">
+                    <div class="row"  style="width:420px">
+                        <div class="col">
+                            <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="#000000" ><p><i class="fa fa-search"></i>Search</p></asp:LinkButton>
+                        </div>
+                        <div class="col lk">
+                           <asp:LinkButton ID="LinkButton3" runat="server" ForeColor="#295176"><p>Contact us</p></asp:LinkButton> 
+                        </div>
+                        <div class="col lk">
+                            <asp:LinkButton ID="LinkButton4" runat="server" ForeColor="#295176"><p>Sign us</p></asp:LinkButton>
+                        </div>
+                        <div class="col lk">
+                            <asp:LinkButton ID="LinkButton5" runat="server" ForeColor="#295176"><p><i class="fa fa-shopping-cart"></i>(0)</p></asp:LinkButton>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+
+            <!--第二行!-->
+            <div class="logo">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/img/logo.webp"/>
+            </div>
+
+            <!--第三行!-->
+            <div class="third">
+                <div class="row justify-content-center">
+                    <div class="col-1.9">
+                        <asp:LinkButton ID="LinkButton6" runat="server" ForeColor="#000000"><p>Shop <i class="fa fa-angle-down"></i></p></asp:LinkButton>
+                    </div>
+                     <div class="col-1.9" style="margin-left:50px">
+                        <asp:LinkButton ID="LinkButton7" runat="server" ForeColor="#000000"><p>Gift Ideas <i class="fa fa-angle-down"></i></p></asp:LinkButton>
+                    </div>
+                     <div class="col-1.9" style="margin-left:50px">
+                        <asp:LinkButton ID="LinkButton8" runat="server" ForeColor="#000000"><p>About Us</p></asp:LinkButton>
+                    </div>
+                     <div class="col-1.9" style="margin-left:50px">
+                        <asp:LinkButton ID="LinkButton9" runat="server" ForeColor="#000000"><p>Our People</p></asp:LinkButton>
+                    </div>
+                    <div class="col-1.9" style="margin-left:50px">
+                        <asp:LinkButton ID="LinkButton10" runat="server" ForeColor="#000000"><p>Latest News <i class="fa fa-angle-down"></i></p></asp:LinkButton>
+                    </div>
+                    <div class="col-1.9" style="margin-left:50px">
+                        <asp:LinkButton ID="LinkButton11" runat="server" ForeColor="#000000"><p>FAQs</p></asp:LinkButton>
+                    </div>
+                    <div class="col-1.9" style="margin-left:50px">
+                        <asp:LinkButton ID="LinkButton12" runat="server" ForeColor="#000000"><span>For Business</span></asp:LinkButton>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin:0 auto;width:46%">
+
+            <!--第四行!-->
+            <div class="forth">
+                <span><b>About Us</b></span>
+            </div>
+
+            <!--第五行!-->
+            <div class="fifth">
+                <span>
+                    <b>
+                        The Soap Co. is an ethical luxury brand that creates sophisticated cruelty-free body care</br>
+                        products to nurture and care for your skin.
+                    </b>
+                </span>
+            </div>
+
+            <!--第五行!-->
+            <div class="sixth">
+               <div class="row">
+                   <div class="col">
+                       <span style="font-size:15px">
+                           Based in East London, and with a traditional workshop in the</br>
+                           Lake District, all our products are handcrafted in the UK by</br>
+                           people who are blind, disabled or otherwise disadvantaged.</br>
+                           We take pride in paying attention where it matters, from our</br>
+                           award winning minimalist design to locally sourced</br>
+                           bottles and compostable soap wrappers.</br>
+                       </span>
+                   </div>
+                   <div class ="col">
+                       <span style="font-size:15px">
+                           We think they're great reasons to get your hands dirty. Our</br>
+                           promise to you is that we will never rest on our laurels. Our no</br>
+                           compromise approach means we will always strive to</br>
+                           improve our products and our service both to you - our</br>
+                           loyal customers and our invaluable employees who make it all</br>
+                           possible.
+                       </span>
+                   </div>
+               </div>
+            </div>
+
+            <!--第六行!-->
+            <div class="sixth video-container" style="text-align:center">
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/clW3w0_Ymyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+            </div>
+
+            <!--第七行!-->
+            <div class="seventh">
+                <span style="font-size:15px">Read more about Our Collections.</span>
+            </div>
+
+            <!--第八行!-->
+            <div>
+                <div class="row">
+                    <div class="col" >
+                        <span style="font-size:15px">
+                            Building on our commitment to handcraft our products in the</br>
+                            UK, we use only natural botanicals, nourishing vitamins and</br>
+                            pure essentials oils. Our products are paraben and cruelty-</br>
+                            free. But that's only half the story. Just like our design, our</br>
+                            ethics are black and white.</br></br>
+                            We're always striving to reduce our impact on the</br>
+                            environment. Our ingredients, bottles and labels wherever</br>
+                            possible are sourced from UK suppliers and we have been</br>
+                            inspired by Dame Ellen Macarthur's Foundation (EMF) and</br>
+                            their work to create the Circular Economy 100. Their</br>
+                            philosophy, to design with more thought is at the very core of</br>
+                            The Soap Co.
+
+                        </span>
+                    </div>
+                    <div class="col">
+                        <span style="font-size:15px">
+                            A bottle that is made from some old milk bottles and with a</br>
+                            45% lower environmental impact than regular PET</br>
+                            bottles?  <b>Yes.</b>  A film that looks and acts like plastic but is</br>
+                            made from renewable wood pulp?  Yes. Stickers that</br>
+                            are compostable?  <b>Yes.</b>  Glue that is non-toxic and</br>
+                            biodegradable?  <b>Yes.</b> </br></br>
+                            If you'd like to keep on top of our latest news, such as</br>
+                            exciting new products and developments on the</br>
+                            environmental and social front, and discover more about</br>
+                            beautiful design and social good, please sign up to our</br>
+                            newsletter.
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!--第九行!-->
+            <div class="fifth">
+                <span>
+                    <b>Awards and Certification</b>
+                </span>
+            </div>
+
+            <!--第十行!-->
+            <div class="tenth">
+                <div class="row">
+                    <div class="col">
+                        <span><b>D&AD Pencil for Design</b></span>
+                    </div>
+                    <div class="col-9">
+                        <span>We won a prestigious D&AD Pencil for Design in 2016.</span>
+                    </div>
+                </div>
+
+                <div class="row tenth">
+                    <div class="col">
+                        <span><b>Blue Patch Business Awards</b></span>
+                    </div>
+                    <div class="col-9">
+                        <span>
+                            Blue Patch support ethical and sustainable UK businesses. In 2017 our co-founder Camilla Marcus-Dew won the Female Business Leader Award, and in 2016 we won their New Business Award.
+
+                        </span>
+                    </div>
+                </div>
+                <div class="row tenth">
+                    <div class="col">
+                        <span><b>Global Good Awards</b></span>
+                    </div>
+                    <div class="col-9">
+                        <span>
+                           These awards celebrate all those who are making strides towards a better world for people, the planet and the global economy. We were delighted to win silver for 'Eco Focused Small Enterprise' and Gold for the 'Best Agency/Consultancy Campaign' with our amazing partners, The Communications Store.
+                        </span>
+                    </div>
+                </div>
+
+                 <div class="row tenth">
+                    <div class="col">
+                        <span><b>SEUK Awards</b></span>
+                    </div>
+                    <div class="col-9">
+                        <span>
+                           We are delighted to have been shortlisted for the 3rd year in row. The Soap Co. was shortlisted last year for the 'One-To Watch' and 'Consumer Facing' awards.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row tenth">
+                    <div class="col">
+                        <span><b>The Sustainable City Awards</b></span>
+                    </div>
+                    <div class="col-9">
+                        <span>
+                            The Sustainable City Awards are a national “green business” awards scheme administered by the City of London Corporation. They aim to recognise and reward best practice in environmental management and sustainable leadership. We were proud to be shortlisted for two awards in 2017: Health & Wellbeing and Innovative Technology.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row tenth">
+                    <div class="col">
+                        <span><b>PwC Social Entrepreneurs Club Awards</b></span>
+                    </div>
+                    <div class="col-9">
+                        <span>
+                           We are the proud 2017 winners in the Environmental Impact category. This award recognises club members who are implementing innovative and impactful solutions to society's challenges.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row tenth">
+                    <div class="col">
+                        <span><b>Variety Catherine Awards</b></span>
+                    </div>
+                    <div class="col-9">
+                        <span>
+                           Our co-founder Camilla, won the Inspirational Award this year in recognition of her contribution to business and philanthropy.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row tenth">
+                    <div class="col">
+                        <span><b>The Planet Mark?</b></span>
+                    </div>
+                    <div class="col-9">
+                        <span>
+                           We're proud holders of The Planet Mark? and won two Planet Mark? awards in 2018. Launched in 2013 in partnership with the Eden Project, The Planet Mark? is an internationally recognised sustainability scheme that certifies organisations committed to at least 5% year-on-year carbon reduction.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row tenth">
+                    <div class="col">
+                        <span><b>NatWest Everywoman Awards</b></span>
+                    </div>
+                    <div class="col-9">
+                        <span>
+                           Camilla received the GAIA award in 2018 for the most inspirational and successful female founder of a social enterprise, who has combined strong community benefit with a sustainable business model.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row tenth">
+                    <div class="col">
+                        <span><b>Beauty Bible Awards</b></span>
+                    </div>
+                    <div class="col-9">
+                        <span>
+                          In 2019, our Uplift bath oil won the Beauty Bible 'Social Responsibility Award'. Beauty Bible has always set out to help you take a short-cut through the beauty jungle – by testing real products on real women, just as you'd use them in real life. Since launch in 1996, they’ve had 26,000 women taking part in the trials – the biggest-ever independent survey of beauty products ever carried out in the world.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row tenth">
+                    <div class="col">
+                        <span><b>CEW Awards</b></span>
+                    </div>
+                    <div class="col-9">
+                        <span>
+                          Our Mulberry & Amber bar soap was a finalist in the 2019 CEW Beauty Awards, in the Responsible Beauty category. Known as the “Oscars of the Beauty Industry”, the CEW Beauty Awards was first launched in the United Kingdom in 2006 to recognise outstanding product innovation and creativity. Voted on by over 1,000 CEW members in the UK – industry professionals and experts in the field of beauty – the CEW Beauty Awards are recognised as one of the most coveted awards in the industry.
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!--第十一行!-->
+            <div class="fifth">
+                <span>
+                    <b>Partners</b>
+                </span>
+            </div>
+
+            <!--第十二行!-->
+            <div class="tenth">
+               <div class="row">
+                    <div class="col" >
+                        <asp:Image ID="Image2" runat="server" ImageUrl="~/img/bitc.webp" Width="100%"/>
+                        <span>BITC</span>
+                    </div>
+                    <div class="col">
+                        <asp:Image ID="Image3" runat="server" ImageUrl="~/img/clarity.webp" Width="100%"/>
+                        <span>Clarity</span>
+                    </div>
+                     <div class="col">
+                        <asp:Image ID="Image4" runat="server" ImageUrl="~/img/madeinbritain.webp" Width="100%"/>
+                        <span>Clarity</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" >
+                        <asp:Image ID="Image8" runat="server" ImageUrl="~/img/social-enterprise-mark.webp" Width="100%"/>
+                        <span>Social Enterprise Mark</span>
+                    </div>
+                    <div class="col">
+                        <asp:Image ID="Image9" runat="server" ImageUrl="~/img/social-enterprise-uk.webp" Width="100%"/>
+                        <span>Social Enterprise UK</span>
+                    </div>
+                     <div class="col">
+                        <asp:Image ID="Image10" runat="server" ImageUrl="~/img/The-Communications-Store.webp" Width="100%"/>
+                        <span>The Communications Store</span>
+                    </div>
+                </div>
+             </div>
+            </div>
+        <div>
+            <!--第十三行!-->
+            <div style="border-top-style:solid; border-top-color:#000000; border-top-width:1px;margin-top:40px" ></div>
+
+            
+            <div style=" width:80%;padding-top:40px;margin:0 auto;border-bottom-style:solid; border-bottom-color:#000000; border-bottom-width:1px; text-align: center;">
+			<div style="height:auto;width:100%;margin:auto; display:inline-block !important; display:block">
+				<div style="width:25%;float:left; margin:auto;text-align:left;">
+				<b style="font-size:22px">More Info</b><br/>
+				<p>
+				<a href="https://thesoapco.org/pages/company-details" class="textStyle"><b>Company</b></a><br/>
+				<a href="https://thesoapco.org/pages/contact" class="textStyle"><b>Contact Us</b></a><br/>
+				<a href="https://thesoapco.org/pages/delivery" class="textStyle"><b>Delivery & Returns</b></a><br/>
+				<a href="https://thesoapco.org/pages/terms" class="textStyle"><b>T&Cs</b></a><br/>
+				<a href="https://thesoapco.org/pages/privacy" class="textStyle"><b>Privacy Policy</b></a><br/>
+				</p>
+					
+			    </div>
+			    <div style="float:left;width:49%; margin:auto;">
+				<p><b style="font-size:22px;">Sign Up for our Newsletter</b><br/><br/></p>
+				<p>Subscribe to our newsletter and be the first to hear what is happening.</p>
+				<div >
+					<b style="padding-right:5px"><asp:TextBox ID="TextBox1" runat="server" Height="30px" Width="200px" ></asp:TextBox></b>
+					<asp:TextBox ID="TextBox2" runat="server" Height="30px" Width="200px" Text="Last Name"></asp:TextBox><br/><br/>
+					<b style="padding-right:9px"><asp:TextBox ID="TextBox3" runat="server" Height="30px" Width="290px"></asp:TextBox></b>
+					<asp:Button ID="Button1" runat="server" Text="Button" Height="35px" Width="110px"/><br /><br /><br />
+
+				</div>
+				
+			    </div>
+			    <div style="float:left;width:25%;margin:auto;">
+				    aaaa
+			    </div>
+			    </div>
+			
+		    </div>
+
+            <!--最後一行!-->
+            <div class="final">
+                <div style="text-align:center">
+                    <span>c 2019 The Soap Co.</span>
+                </div>
+                <div style="text-align:center">
+                    <asp:Image ID="Image5" runat="server" ImageUrl="~/img/amex.svg" />
+                    <asp:Image ID="Image6" runat="server" ImageUrl="~/img/apple_pay.svg"/>
+                    <asp:Image ID="Image7" runat="server" ImageUrl="~/img/maestro.svg"/>
+                    <asp:Image ID="Image11" runat="server" ImageUrl="~/img/master.svg" />
+                    <asp:Image ID="Image14" runat="server" ImageUrl="~/img/paypal.svg" />
+                    <asp:Image ID="Image12" runat="server" ImageUrl="~/img/shopify_pay.svg"/>
+                    <asp:Image ID="Image13" runat="server" ImageUrl="~/img/visa.svg"/>
+             
+                </div>
+                
+            </div>
+        </div>
+            
+
+        
+      </form>
+</body>
+</html>
