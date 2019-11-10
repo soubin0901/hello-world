@@ -12,7 +12,7 @@
 <body style="background-color:#F2F0F1">
     <form id="form1" runat="server">
         <div>
-            <!--º–√D!-->
+            <!--Ê®ôÈ°å!-->
             <header class="header">
                 <div style="float:left;padding-top:10px">
                     <asp:LinkButton ID="LinkButton1" runat="server" Font-Size="30px" ForeColor="#000000"><i class="fa fa-align-justify" ></i></asp:LinkButton>
@@ -36,12 +36,12 @@
                 </div>
             </header>
 
-            <!--≤ƒ§G¶Ê!-->
+            <!--Á¨¨‰∫åË°å!-->
             <div class="logo">
                 <asp:Image ID="Image1" runat="server" ImageUrl="~/img/logo.webp"/>
             </div>
 
-            <!--≤ƒ§T¶Ê!-->
+            <!--Á¨¨‰∏âË°å!-->
             <div class="third">
                 <div class="row justify-content-center">
                     <div class="col-1.9">
@@ -71,12 +71,12 @@
 
         <div style="margin:0 auto;width:46%">
 
-            <!--≤ƒ•|¶Ê!-->
+            <!--Á¨¨ÂõõË°å!-->
             <div class="forth">
                 <span><b>About Us</b></span>
             </div>
 
-            <!--≤ƒ§≠¶Ê!-->
+            <!--Á¨¨‰∫îË°å!-->
             <div class="fifth">
                 <span>
                     <b>
@@ -86,7 +86,7 @@
                 </span>
             </div>
 
-            <!--≤ƒ§≠¶Ê!-->
+            <!--Á¨¨‰∫îË°å!-->
             <div class="sixth">
                <div class="row">
                    <div class="col">
@@ -112,17 +112,17 @@
                </div>
             </div>
 
-            <!--≤ƒ§ª¶Ê!-->
+            <!--Á¨¨ÂÖ≠Ë°å!-->
             <div class="sixth video-container" style="text-align:center">
                  <iframe width="560" height="315" src="https://www.youtube.com/embed/clW3w0_Ymyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
             </div>
 
-            <!--≤ƒ§C¶Ê!-->
+            <!--Á¨¨‰∏ÉË°å!-->
             <div class="seventh">
                 <span style="font-size:15px">Read more about Our Collections.</span>
             </div>
 
-            <!--≤ƒ§K¶Ê!-->
+            <!--Á¨¨ÂÖ´Ë°å!-->
             <div>
                 <div class="row">
                     <div class="col" >
@@ -161,14 +161,14 @@
                 </div>
             </div>
 
-            <!--≤ƒ§E¶Ê!-->
+            <!--Á¨¨‰πùË°å!-->
             <div class="fifth">
                 <span>
                     <b>Awards and Certification</b>
                 </span>
             </div>
 
-            <!--≤ƒ§Q¶Ê!-->
+            <!--Á¨¨ÂçÅË°å!-->
             <div class="tenth">
                 <div class="row">
                     <div class="col">
@@ -218,7 +218,7 @@
                     </div>
                     <div class="col-9">
                         <span>
-                            The Sustainable City Awards are a national °ßgreen business°® awards scheme administered by the City of London Corporation. They aim to recognise and reward best practice in environmental management and sustainable leadership. We were proud to be shortlisted for two awards in 2017: Health & Wellbeing and Innovative Technology.
+                            The Sustainable City Awards are a national ‚Äúgreen business‚Äù awards scheme administered by the City of London Corporation. They aim to recognise and reward best practice in environmental management and sustainable leadership. We were proud to be shortlisted for two awards in 2017: Health & Wellbeing and Innovative Technology.
                         </span>
                     </div>
                 </div>
@@ -273,7 +273,7 @@
                     </div>
                     <div class="col-9">
                         <span>
-                          In 2019, our Uplift bath oil won the Beauty Bible 'Social Responsibility Award'. Beauty Bible has always set out to help you take a short-cut through the beauty jungle °V by testing real products on real women, just as you'd use them in real life. Since launch in 1996, they°¶ve had 26,000 women taking part in the trials °V the biggest-ever independent survey of beauty products ever carried out in the world.
+                          In 2019, our Uplift bath oil won the Beauty Bible 'Social Responsibility Award'. Beauty Bible has always set out to help you take a short-cut through the beauty jungle ‚Äì by testing real products on real women, just as you'd use them in real life. Since launch in 1996, they‚Äôve had 26,000 women taking part in the trials ‚Äì the biggest-ever independent survey of beauty products ever carried out in the world.
                         </span>
                     </div>
                 </div>
@@ -284,20 +284,20 @@
                     </div>
                     <div class="col-9">
                         <span>
-                          Our Mulberry & Amber bar soap was a finalist in the 2019 CEW Beauty Awards, in the Responsible Beauty category. Known as the °ßOscars of the Beauty Industry°®, the CEW Beauty Awards was first launched in the United Kingdom in 2006 to recognise outstanding product innovation and creativity. Voted on by over 1,000 CEW members in the UK °V industry professionals and experts in the field of beauty °V the CEW Beauty Awards are recognised as one of the most coveted awards in the industry.
+                          Our Mulberry & Amber bar soap was a finalist in the 2019 CEW Beauty Awards, in the Responsible Beauty category. Known as the ‚ÄúOscars of the Beauty Industry‚Äù, the CEW Beauty Awards was first launched in the United Kingdom in 2006 to recognise outstanding product innovation and creativity. Voted on by over 1,000 CEW members in the UK ‚Äì industry professionals and experts in the field of beauty ‚Äì the CEW Beauty Awards are recognised as one of the most coveted awards in the industry.
                         </span>
                     </div>
                 </div>
             </div>
 
-            <!--≤ƒ§Q§@¶Ê!-->
+            <!--Á¨¨ÂçÅ‰∏ÄË°å!-->
             <div class="fifth">
                 <span>
                     <b>Partners</b>
                 </span>
             </div>
 
-            <!--≤ƒ§Q§G¶Ê!-->
+            <!--Á¨¨ÂçÅ‰∫åË°å!-->
             <div class="tenth">
                <div class="row">
                     <div class="col" >
@@ -330,7 +330,7 @@
              </div>
             </div>
         <div>
-            <!--≤ƒ§Q§T¶Ê!-->
+            <!--Á¨¨ÂçÅ‰∏âË°å!-->
             <div style="border-top-style:solid; border-top-color:#000000; border-top-width:1px;margin-top:40px" ></div>
 
             
@@ -366,7 +366,7 @@
 			
 		    </div>
 
-            <!--≥Ã´·§@¶Ê!-->
+            <!--ÊúÄÂæå‰∏ÄË°å!-->
             <div class="final">
                 <div style="text-align:center">
                     <span>c 2019 The Soap Co.</span>
